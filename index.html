@@ -85,29 +85,29 @@
           <h6>深夜凌晨 22:00 ~ 06:59 加成另計</h6>
           <p class="text-center"><a class="btn btn-primary px-5 py-2 my-2" :href="url.form" target="_blank"><i class="far fa-edit"></i> 立即預約</a></p>
         </div>
-        <div class="col-12 col-md-8 col-md-7 mb-4"> 
-          <div class="card bg-light">
-            <div class="card-header text-center">
-              <h4 class="m-0">接送來回一併預約</h4>
-            </div>
-            <div class="card-body px-md-5">
-              <h4 class="text-center mb-1">預先付款享優惠 NT$1,600 元起！</h4>
-              <h5 class="text-center mb-1 text-primary">ATM 帳號：{{ account.bank }}</h5>
-              <p class="text-center">
-                <a class="webatm-btn btn px-5 py-2 my-2" href="https://www.ctbcbank.com/twrbo/zh_tw/onlinecounter_index/digital_service/digital_service_webatm.html" target="_blank">
-                  <img src="data:image/png;base64,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">
-                  WebATM</a>
-              </p>
-              <!-- <p class="text-center">僅限來回一併預約的客戶享有此優惠)</p> -->
-              <hr class="bg-white my-4 w-75">
-              <h6>＊僅限來回一併預約的客戶享有此優惠</h6>
-              <h6>＊以上優惠恕不得同時併用</h6>
-              <p>特殊節慶期間恕不適用上述折扣優惠，並另有加價情形<br>
-                  如連假期間、跨年、春節 (農曆除夕~初五)、颱風期間 (中央氣象局公告為主) 等，實際報價需於訂車前洽詢我們並以官方客服回覆為主！</p>
-              <p class="text-center"><a class="btn btn-primary px-5 py-2 my-2" :href="url.form" target="_blank"><i class="far fa-edit"></i> 立即預約</a></p>
-            </div>
-          </div>
-        </div>
+<!--        <div class="col-12 col-md-8 col-md-7 mb-4"> -->
+<!--          <div class="card bg-light">-->
+<!--            <div class="card-header text-center">-->
+<!--              <h4 class="m-0">接送來回一併預約</h4>-->
+<!--            </div>-->
+<!--            <div class="card-body px-md-5">-->
+<!--              <h4 class="text-center mb-1">預先付款享優惠 NT$1,600 元起！</h4>-->
+<!--              <h5 class="text-center mb-1 text-primary">ATM 帳號：{{ account.bank }}</h5>-->
+<!--              <p class="text-center">-->
+<!--                <a class="webatm-btn btn px-5 py-2 my-2" href="https://www.ctbcbank.com/twrbo/zh_tw/onlinecounter_index/digital_service/digital_service_webatm.html" target="_blank">-->
+<!--                  <img src="data:image/png;base64,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">-->
+<!--                  WebATM</a>-->
+<!--              </p>-->
+<!--              &lt;!&ndash; <p class="text-center">僅限來回一併預約的客戶享有此優惠)</p> &ndash;&gt;-->
+<!--              <hr class="bg-white my-4 w-75">-->
+<!--              <h6>＊僅限來回一併預約的客戶享有此優惠</h6>-->
+<!--              <h6>＊以上優惠恕不得同時併用</h6>-->
+<!--              <p>特殊節慶期間恕不適用上述折扣優惠，並另有加價情形<br>-->
+<!--                  如連假期間、跨年、春節 (農曆除夕~初五)、颱風期間 (中央氣象局公告為主) 等，實際報價需於訂車前洽詢我們並以官方客服回覆為主！</p>-->
+<!--              <p class="text-center"><a class="btn btn-primary px-5 py-2 my-2" :href="url.form" target="_blank"><i class="far fa-edit"></i> 立即預約</a></p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
         <div class="col-12 col-md-8 col-md-7">
           <ul>
             <li><strong>加價+100元地區：</strong>距離機場超過50公里以上 (淡水、文山區、南港近汐止區、新店)</li>
